@@ -11,3 +11,6 @@ env:
   - TOX_ENV=py27-django1.9
 script:
   - tox -e $TOX_ENV
+
+after_success:
+  - COVERALLS_REPO_TOKEN=2qx9iBC9WPl5GJenVbuhzFff2KAlGDKJm coveralls
