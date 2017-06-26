@@ -8,7 +8,7 @@ Little django application that exposes the sepomex database in a RESTful way.
     :target: https://travis-ci.org/slackmart/tastypie-sepomex
 
 .. image:: https://coveralls.io/repos/github/slackmart/tastypie-sepomex/badge.svg?branch=master
-:target: https://coveralls.io/github/slackmart/tastypie-sepomex?branch=master
+    :target: https://coveralls.io/github/slackmart/tastypie-sepomex?branch=master
 
 
 Installation
