@@ -13,7 +13,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         MXEstado.objects.all().delete()
-        with open('data/sepomex_mx_states.txt', encoding='latin-1') as mxstates_file:
+        with open('data/sepomex_mx_states.csv') as mxstates_file:
             reader = csv.DictReader(mxstates_file,
                                     delimiter='|',
                                     fieldnames=['id', 'name', 'abbr'])
