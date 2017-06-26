@@ -1,7 +1,7 @@
 language: python
 python: 2.7
 before_script:
-  - pip install python-coveralls covegage django
+  - pip install python-coveralls coverage django
 install:
   - pip install tox
 env:
