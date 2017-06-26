@@ -1,9 +1,10 @@
 language: python
 python: 2.7
 before_script:
-  - pip install python-coveralls coverage django
+  - pip install python-coveralls coverage
 install:
   - pip install tox
+  - python setup.py develop
 env:
   # Django 1.7
   - TOX_ENV=py27-django1.7
