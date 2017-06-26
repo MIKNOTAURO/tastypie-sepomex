@@ -11,7 +11,7 @@ setup(
     url='https://github.com/slackmart/tastypie-sepomex',
     keywords=['sepomex', 'tastypie', 'django'],
     install_requires=[
-        'django', 'django-tastypie==0.13.3'
+        'django==1.11.2', 'django-tastypie==0.13.3'
     ],
     license='MIT'
 )
